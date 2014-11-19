@@ -6,4 +6,8 @@ class Number < Struct.new(:value)
   def inspect
     "<< #{self} >>"
   end
+
+  def pretty_inspect
+    "<< #{self} >>"
+  end
 end

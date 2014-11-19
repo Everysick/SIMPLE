@@ -6,4 +6,8 @@ class Add < Struct.new(:left, :right)
   def inspect
     "<< #{self} >>"
   end
+  
+  def pretty_inspect
+    "<< #{self} >>"
+  end
 end
