@@ -10,4 +10,8 @@ class Number < Struct.new(:value)
   def pretty_inspect
     "<< #{self} >>"
   end
+
+  def reducible?
+    false
+  end
 end

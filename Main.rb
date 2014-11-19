@@ -1,0 +1,5 @@
+require '~/semantics/SIMPLE/Number.rb'
+require '~/semantics/SIMPLE/Add.rb'
+require '~/semantics/SIMPLE/Multiply.rb'
+require '~/semantics/SIMPLE/Variable.rb'
+require '~/semantics/SIMPLE/Machine.rb'
